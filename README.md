@@ -13,3 +13,4 @@ Crear una App tipo Kanban o Trello empleando librerías de JavaScript.
 
 
 <summary><h2> Espero que les guste :D </h2></summary>
+![thumb_197487300_328452242133199_8507566347967813653_n-2839209499](https://user-images.githubusercontent.com/61593038/177858523-6127672a-921e-48a8-b4c4-feb4f385fdf3.jpg)
