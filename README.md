@@ -9,7 +9,7 @@ Crear una App tipo Kanban o Trello empleando librerías de JavaScript.
 
 - Crear una app tipo Kanban o Trello empleando librerías de JavaScript.
 - La app debe ser tipo Kanban, es decir, debe contener tres columnas: Tareas por hacer, Tareas en proceso, Tareas finalizadas.
-- Cada cuadro de las tareas debe contener: Título de la tarea, descripción de la tarea, usuario responsable y fecha de entrega
+- Cada cuadro de las tareas debe contener: Título de la tarea, descripción de la tarea, usuario responsable y fecha de entrega.
 
 
 <summary><h2> Espero que les guste :D </h2></summary>

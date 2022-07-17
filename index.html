@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M3U2 Trello App Sofia Guerra Jiménez</title>
+    <link rel="shortcut icon" href="./assets/trellofavicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <p id="tituloApp" style="text-align:center" >Crea y organiza tus tareas </p>
+        <p id="miNombre" style="text-align:right;">Hecho por Sofia Guerra Jiménez</p>
+        <img id="logo" src="./assets/trello-logo.png" alt="Logo app" style="padding-left: 15px; padding-top: 8px;">
+        <img id="cat" src="./assets/cat-gif.gif" alt="Cat Gif">
+    </header>
+
+    <main>
+        <div id="botonT"><button id="botonTarea"> Crear tarea nueva </button></div>
+
+        <div id="seccionesM">
+            <section class="secciones">
+                <h2 class="seccionesM-Titulo">Por hacer</h2>
+                <div class="espacioTareas" id="porHacer"></div>
+                </section>
+            <section class="secciones">
+                <h2 class="seccionesM-Titulo">En curso</h2>
+                <div class="espacioTareas" id="enCurso"></div>
+                </section>
+            <section class="secciones">
+                <h2 class="seccionesM-Titulo">Finalizado</h2>
+                <div class="espacioTareas" id="finalizado"></div>
+                </section>
+            </div>
+        </main>
+
+        <aside style="float:right">
+            <div class="seccionTarea-N">
+                <div class="input-NT">
+                   <h2 style="text-align: center;padding-right: 30px;">Tarea Nueva</h2>
+                    <form>
+                        <div class="inputTarea-N">
+                            <label for="tituloTarea">Título:</label> <br>
+                            <input id="tituloTarea" name="tituloTarea" type="text" class="inputForm" placeholder="Título de la tarea" style="padding-left:10px; width: 188px;">
+                        </div>
+
+                        <div class="inputTarea-N">
+                            <label for="descripcionTarea">Descripción:</label> <br>
+                            <input id="descripcionTarea" name="descripcionTarea" type="text" class="inputForm" placeholder="Descripcion de la tarea" style="padding-left:10px; width: 188px;">
+                        </div>
+
+                        <div class="inputTarea-N">
+                            <label for="nombreUsuario">Responsable:</label> <br>
+                            <input id="nombreUsuario" name="nombreUsuario" type="text" class="inputForm" placeholder="Nombre del usuario" style="padding-left:10px; width: 188px;">
+                        </div>
+
+                        <div class="inputTarea-N">
+                            <label for="fechaTarea">Plazo:</label> <br>
+                            <input id="fechaTarea" name="fechaTarea" type="text" class="inputForm" placeholder="Fecha de entrega" style="padding-left:10px; width: 188px;">
+                        </div>
+
+                        <div class="botones">
+                            <div>
+                                <button class="botonesEC"id="botonEnviar" type="submit">Enviar</button>
+                                <button type="reset" class="botonesEC" id="botonCancelar  ">Cancelar</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </aside>
+</body>
+<script src="./js/main.js"></script>
+</html>
