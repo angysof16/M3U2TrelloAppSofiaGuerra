@@ -1,0 +1,37 @@
+.header-app {
+  background-color:rgb(133, 255, 158);
+  height: 140px;
+  box-shadow: 4px 4px 4px 2px rgb(80, 80, 80);
+}
+
+.header-app, 
+.header-app .l-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  width:145px;
+  height:100px;
+}
+
+#tituloApp{
+  position: absolute;
+  font-family:'Lucida Sans';
+  font-size: x-large;
+  font-weight:bold;
+  padding-left: 39%;
+  padding-top:20px;
+  color: rgb(31, 46, 103);
+}
+
+#miNombre{
+  position: absolute;
+  font-family:'Lucida Sans';
+  font-size: small;
+  font-weight:bold;
+  padding-left: 82%;
+  padding-top:70px;
+  color: rgb(113, 0, 0);
+}

@@ -1,0 +1,17 @@
+body{
+  background-color: rgb(40, 199, 146);
+  font-family: 'Courier New';
+}
+
+.main-app
+{
+  flex-direction: column;
+}
+
+.main-app,
+.main-app .l-container
+{
+  flex: 1;
+  display: flex;
+  gap: var(--gutter);
+}
