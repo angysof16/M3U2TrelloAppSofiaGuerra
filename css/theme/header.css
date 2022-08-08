@@ -1,11 +1,12 @@
 .header-app {
-  background-color:rgb(133, 255, 158);
   height: 140px;
   box-shadow: 4px 4px 4px 2px rgb(80, 80, 80);
+  background-color:rgb(133, 255, 158);  
 }
 
 .header-app, 
-.header-app .l-container{
+.header-app .l-container
+{
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -31,7 +32,6 @@
   font-family:'Lucida Sans';
   font-size: small;
   font-weight:bold;
-  padding-left: 82%;
-  padding-top:70px;
+  padding-left: 69%;
   color: rgb(113, 0, 0);
 }

@@ -10,7 +10,7 @@
   </head>
   <body class="l-app" id="app">
 
-    <!-- Encabezado -->
+
     
     <header class="header-app">
       <div class="l-container">
@@ -20,36 +20,23 @@
         <button class="button button-primary" id="btnNewTask">Crea una nueva tarea</button>
       </div>
     </header>
-    <!-- Fin Encabezado -->
 
-    <!-- Canva -->
     <main class="main-app">
       <div class="l-container">
-        <!-- Tablero - Tareas por hacer -->
         <section class="section-app">
           <h2 class="section-status-title">Por hacer</h2>
           <div class="container-tasks" id="todoTasks"></div>
         </section>
-        <!-- Fin Tablero - Tareas por hacer -->
-
-        <!-- Tablero - Tareas en progreso -->
         <section class="section-app">
           <h2 class="section-status-title">En progreso</h2>
           <div class="container-tasks" id="progressTasks"></div>
         </section>
-        <!-- Fin Tablero - Tareas en progreso -->
-
-        <!-- Tarea - Tareas finalizadas -->
         <section class="section-app">
           <h2 class="section-status-title">Finalizadas</h2>
           <div class="container-tasks" id="doneTasks"></div>
         </section>
-        <!-- Fin Tablero - Tareas finalizadas -->
       </div>
     </main>
-    <!-- Fin Canva -->
-
-    <!-- Modal - Formulario crear tarea -->
     <aside class="aside-app" id="modalNewTask">
       <div class="l-container">
         <div class="form-container">
@@ -96,7 +83,6 @@
                 <option value="2">2 días</option>
                 <option value="7">1 semana</option>
               </select>
-              <!-- <input type="date" name="deadLineTask" id="deadLineTask"> -->
             </div>
 
             <div class="row-form">
@@ -116,15 +102,15 @@
         </div>
       </div>
     </aside>
-    <!-- Fin Modal - Formulario crear tarea -->  
 
-    <!-- Recursos externos -->
+
     <script src="./src/librerias/axios.js"></script>
     <script src="./src/librerias/hammer.js"></script>
     <script src="./src/librerias/draggable.js"></script>
     <script src="./src/librerias/moment.js"></script>
     
-    <!-- Recursos internos -->
+
+
     <script src="./src/api/request.js"></script>
     <script src="./src/helpers/date.js"></script>
     <script src="./src/helpers/dragable.js"></script>
