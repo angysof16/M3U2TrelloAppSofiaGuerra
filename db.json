@@ -4,19 +4,19 @@
         "id": 1,
         "title": "Frontend",
         "person": "Sofia Guerra",
-        "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "details": "Lorem ipsum dolor sit amet.",
         "state": "done",
-        "deadline": 1290410940,
+        "deadline": 1290410941,
         "created": 1615352159
       },
       {
         "id": 2,
         "title": "Backend",
         "person": "Sofia Guerra",
-        "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "details": "Lorem ipsum dolor sit amet.",
         "state": "to-do",
         "deadline": 1615524959,
-        "created": 1615352159
+        "created": 2828783737
       }
     ]
   }
